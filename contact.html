@@ -19,33 +19,39 @@
           <li> <a href="shop.html">Shop</a></li>
           <li> <a href="about.html">About</a></li>
           <li> <a href="contact.html">Contact</a></li>
-          <li><img src="" alt=""></li>
-          <li><img src="" alt=""></li>
+          <li> <a href="#"><img src="" alt=""></a></li>
+          <li> <a href="#"><img src="" alt=""></a></li>
         </ul>
         <main>
           <section class="container">
             <h2>Contact</h2>
-            <p>E-mail: <a href="mailto:efakhoury@comcast.net">efakhoury@comcast.net</a></p>
-          </section>
+            <form class="contactform" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+              <div class="first-name input-section">
+                <label for="firstname" class="label_input_wrap">First Name:</label>
+                <input type="text" name="req_firstname" id="firstname">
+              </div>
 
-          <section class="container">
-            <h2>Newsletter</h2>
-            <p>Enter your e-mail so I can let you know when my new prints come out!</p>
+              <div class="last-name input-section">
+                <label for="lastname" class="label_input_wrap">Last Name:</label>
+                <input type="text" name="req_lastname" id="lastname">
+              </div>
 
-            <form class="newsletter" action="index.html" method="post">
-              <div class="email">
-                <label for="email" class="label_input_wrap">E-mail:</label>
-                <input type="text" name="req_email" id="email">
+              <div class="email input-section">
+                <label for="email" class="label_input_wrap">Email:</label>
+                <input type="email" name="req_email" id="email">
+              </div>
+
+              <div class="comments input-section">
+                <label for="comments" class="label_input_wrap">Comments:</label>
+                <textarea name="comments" id="comments" cols="55" rows="5"></textarea>
               </div>
 
               <div class="submit input-section">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Send me a message.">
               </div>
-
             </form>
 
           </section>
-
         </main>
       </nav>
     </header>
