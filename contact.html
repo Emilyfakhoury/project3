@@ -6,20 +6,47 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
-    
+
   </head>
   <body>
     <header>
       <nav>
         <h1><a href="index.html">Emily Fakhoury</a></h1>
         <ul>
-          <li>Shop</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li> <a href="shop.html">Shop</a></li>
+          <li> <a href="about.html">About</a></li>
+          <li> <a href="contact.html">Contact</a></li>
+          <li><img src="" alt=""></li>
+          <li><img src="" alt=""></li>
         </ul>
+        <main>
+          <section class="container">
+            <h2>Contact</h2>
+            <p>E-mail: <a href="mailto:efakhoury@comcast.net">efakhoury@comcast.net</a></p>
+          </section>
+
+          <section class="container">
+            <h2>Newsletter</h2>
+            <p>Enter your e-mail so I can let you know when my new prints come out!</p>
+
+            <form class="newsletter" action="index.html" method="post">
+              <div class="email">
+                <label for="email" class="label_input_wrap">E-mail:</label>
+                <input type="text" name="req_email" id="email">
+              </div>
+
+              <div class="submit input-section">
+                <input type="submit" value="Submit">
+              </div>
+
+            </form>
+
+          </section>
+
+        </main>
       </nav>
     </header>
   </body>
