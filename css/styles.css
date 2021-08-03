@@ -64,13 +64,13 @@ nav h1, .upper-right-container {
  =======================================*/
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
 
 h2 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 main {
@@ -85,10 +85,6 @@ main {
 
  =======================================*/
 
-.items {
-  padding: 0 40px;
-}
-
 .item-container {
   width: 33%;
   float: left;
@@ -102,15 +98,99 @@ main {
 /*========================================
 
 
+  Main About Styling
+
+
+ =======================================*/
+
+ .portrait {
+   float: left;
+   margin-right: 100px;
+ }
+
+ .bits {
+   position: absolute;
+   margin: 10px 0 0 250px;
+   font-size: 38px;
+ }
+
+.bit1, .bit2 {
+  margin: 12px auto;
+  background-color: #ECA19A;
+  padding: 5px 20px;
+}
+
+.bit2 {
+  margin-left: 70px;
+}
+
+ .about-paragraphs {
+   position: relative;
+   top: 180px;
+ }
+
+ .artist-statement {
+   margin-top: 30px;
+ }
+
+ .artist-statement h3 {
+   margin-bottom: 10px;
+ }
+
+ /*========================================
+
+
+   Main Contact Styling
+
+
+  =======================================*/
+
+.contactform {
+  margin: 0 auto;
+}
+
+.label_input_wrap {
+  display: block;
+  padding: 5px;
+}
+
+.submit input {
+  background: black;
+  color: white;
+}
+
+.input-section {
+  margin: 15px;
+}
+
+input {
+  padding: 5px 10px;
+  background-color: #efefef;
+  border-radius: 2px;
+}
+
+textarea {
+  padding: 10px 10px;
+  background-color: #efefef;
+  border-radius: 3px;
+}
+
+.submit input:hover {
+  background: #ECA19A;
+  color: black;
+}
+
+/*========================================
+
+
   Footer Styling
 
 
  =======================================*/
 
 footer {
-  text-align: center;
-  position: relative;
-  margin-top: 50px ;
-  bottom: 35px;
-
+    text-align: center;
+    position: relative;
+    margin-top: 150px ;
+    bottom: 35px;
 }
