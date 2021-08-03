@@ -1,0 +1,116 @@
+/*========================================
+
+
+  Universal Styling
+
+
+ =======================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+/*========================================
+
+
+  Header Styling
+
+
+ =======================================*/
+
+header {
+  padding: 45px;
+
+}
+
+header li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav h1, nav ul{
+  display: inline;
+}
+
+nav ul {
+  margin-left: 20px;
+}
+
+nav h1, .upper-right-container {
+  display: inline;
+}
+
+.upper-right-container {
+  float: right;
+}
+
+/*========================================
+
+
+  Main General Styling
+
+
+ =======================================*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+main {
+  min-height: 85vh;
+}
+
+/*========================================
+
+
+  Main Shop Styling
+
+
+ =======================================*/
+
+.items {
+  padding: 0 40px;
+}
+
+.item-container {
+  width: 33%;
+  float: left;
+}
+
+.item-info p {
+  width: 50%;
+  float: left;
+}
+
+/*========================================
+
+
+  Footer Styling
+
+
+ =======================================*/
+
+footer {
+  text-align: center;
+  position: relative;
+  margin-top: 50px ;
+  bottom: 35px;
+
+}

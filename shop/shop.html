@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
   </head>
   <body>
@@ -19,32 +19,43 @@
           <li> <a href="shop.html">Shop</a></li>
           <li> <a href="../about.html">About</a></li>
           <li> <a href="../contact.html">Contact</a></li>
-          <li> <a href="https://www.instagram.com/ahmoograms/"><img src="../images/instagram.png" alt="instagram" title="instagram" width=25px></a></li>
-          <li> <a href="cart.html"><img src="../images/shopping-cart.png" alt="cart" title="cart" width=60px></a></li>
+          <div class="upper-right-container">
+            <li> <a href="https://www.instagram.com/ahmoograms/"><img src="../images/instagram.png" alt="instagram" title="instagram" width=25px></a></li>
+            <li> <a href="shop/cart.html"><img src="../images/shopping-cart.png" alt="cart" title="cart" width=60px></a></li>
+          </div>
         </ul>
       </nav>
     </header>
     <main>
-      <h2>Shop</h2>
-      <section class="items">
+      <section class="container">
 
-        <div class="item1">
-        <a href="#"><img src="../images/item1.jpg" alt="" width=200px></a>
-        <p>Name</p>
-        <p>Price</p>
-        </div>
+        <h2>Shop</h2>
+          <section class="items">
 
-        <div class="item2">
-        <a href="#"><img src="../images/item2.jpg" alt="" width=200px></a>
-        <p>Name</p>
-        <p>Price</p>
-        </div>
+            <div class="item-container">
+              <a href="item1.html"><img src="../images/item1.jpg" alt="" width=250px></a>
+              <div class="item-info">
+                <p class="name">Untitled No. 1</p>
+                <p class="price">$100</p>
+              </div>
+            </div>
 
-        <div class="item3">
-        <a href="#"><img src="../images/item3.jpg" alt="" width=200px></a>
-        <p>Name</p>
-        <p>Price</p>
-        </div>
+            <div class="item-container">
+              <a href="item2.html"><img src="../images/item2.jpg" alt="" width=250px></a>
+              <div class="item-info">
+                <p class="name">Untitled No. 2</p>
+                <p class="price">$100</p>
+              </div>
+            </div>
+
+            <div class="item-container">
+              <a href="item3.html"><img src="../images/item3.jpg" alt="" width=250px></a>
+              <div class="item-info">
+                <p class="name">Untitled No. 3</p>
+                <p class="price">$100</p>
+              </div>
+            </div>
+          </section>
 
       </section>
     </main>
