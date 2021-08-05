@@ -10,6 +10,13 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <script src="scripts/scripts.js" type="text/javascript"></script>
+
   </head>
   <body>
     <header>
@@ -29,13 +36,33 @@
 
     <main>
       <section class="container">
+        <div class="slideshow">
+          <div><img src="images/portfolio1.jpg" alt="" height="400px"></div>
+          <div><img src="images/portfolio2.jpg" alt="" height="400px"></div>
+          <div><img src="images/portfolio3.jpg" alt="" height="400px"></div>
+          <div><img src="images/portfolio4.jpg" alt="" height="400px"></div>
+          <div><img src="images/portfolio5.jpg" alt="" height="400px"></div>
+          <div><img src="images/portfolio6.jpg" alt="" height="400px"></div>
+        </div>
+
         <p>To look at selected prints for sale, check the  <a href="shop/shop.html">Shop</a></p>
       </section>
     </main>
 
 
-    <footer>
-    <p>Website by Emily Fakhoury</p>
-    </footer>
+    <footer><p>Website by Emily Fakhoury</p></footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slideshow').slick({
+          setting-name: setting-value
+        });
+      });
+    </script>
+
   </body>
 </html>
