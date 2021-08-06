@@ -99,10 +99,10 @@ main {
     margin: 0 auto;
 }
 
-.slick-prev,
-.slick-next {
-  color: black;
+.home-text {
+  margin-top: 100px;
 }
+
 /*========================================
 
 
