@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .container {
@@ -15,17 +16,10 @@
 nav li {
   display: inline;
   margin: 10px;
-  font-family: sans-serif;
-  color: #8ec74b;
 }
 
 nav {
   margin: 30px;
-}
-
-.thankyou {
-  font-family: sans-serif;
-  color: #8ec74b;
 }
 
 </style>

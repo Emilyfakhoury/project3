@@ -4,22 +4,20 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  font-family: sans-serif;
-  color: #8ec74b;
 }
 
 nav li {
   display: inline;
   margin: 10px;
-  font-family: sans-serif;
-  color: #8ec74b;
 }
+
 
 nav {
   margin: 30px;
